@@ -25,7 +25,7 @@ public class PostController {
 		.retrieve()
 		.body(Posts.class);
 		
-		System.out.println("data got "+response.getBody());
+		System.out.println("data got............ "+response.getBody());
 		return ResponseEntity.ok(response);
 		
 	}
